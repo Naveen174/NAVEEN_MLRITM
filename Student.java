@@ -1,4 +1,8 @@
 import java.util.Date;
+import java.io.*;
+public static void main(string args[])
+{
+
 
 /**
  * Class that stores information about the concrete student
@@ -14,6 +18,9 @@ public class Student implements Comparable {
 	 * student id
 	 */
 	private int id;
+	{
+	System.out.println("enter the student id:");
+	this.id=id;
 
 	/**
 	 * student name and surname separated by the whitespace for example:
